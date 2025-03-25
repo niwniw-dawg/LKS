@@ -9,4 +9,5 @@ include("koneksi.php");
 	$result = mysqli_query($koneksi, "INSERT INTO guru(id_user,nama,mapel,gender) VALUES('$id_user','$nama','$mapel','$gender')");
 
 	header("location:index.php?success=1");
+	//trsdfdfdg
 	?>
